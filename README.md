@@ -1,4 +1,4 @@
-# C++ and Python Template for simple ROS2 based simulation for visualizing planning and and control of autonomous mobile robot
+# C++ and Python Template for simple ROS2 based simulation and visualization of planning and and control of autonomous mobile robot
 This Docker image is a template for creating simple simulation for AMR path planning/control
 
 Following AMR model has been used to demonstrate the example:
