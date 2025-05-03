@@ -1,4 +1,4 @@
-# C++ and Python Template for simple ROS2 based simulation for control autonomous mobile robot
+# C++ and Python Template for simple ROS2 based simulation for visualizing planning and and control of autonomous mobile robot
 This Docker image is a template for creating simple simulation for AMR path planning/control
 
 Following AMR model has been used to demonstrate the example:
@@ -25,7 +25,7 @@ Following step will create a docker container **template** and run it in intract
 2. run `colcon build`
 3. run `source install/setup.bash`
 
-# Following will run the simulation
+# Following steps will run the simulation
 1. After building the package, you can run the following launch files
 2. run `ros2 launch sim_dynamics sim_dynamics_node.launch.py`  // this will run the simulation node
 3. run `ros2 launch planner_algo mppi_node.launch.py` // this will run the mppi_node.py , which currently just transmits the constant speed and 0 steering angle
